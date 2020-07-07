@@ -32,7 +32,7 @@ class VideoBottomBar extends AnimatedWidget {
           end: Alignment.bottomCenter,
         )),
         child: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: children,
         ),
